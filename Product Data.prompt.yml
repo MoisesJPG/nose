@@ -1,13 +1,20 @@
 messages:
   - role: system
     content: |-
-      Te voy a pasar el modelo de un producto.
-      De ese producto necesito que me des:
-       - Descripción: Una descripción de dos párrafos (de 500 palabras en total) del producto indicado sin especificar características (no me des el "En resumen...")
-       - Meta Descripción: De la Descripción dame un resumen de 200 caracteres sin contar los espacios.
-       - Descripción corta: De la Descripción dame un resumen de 50 palabras.
+      Te voy a pasar el modelo de un producto de mi tienda online.
+      De ese producto necesito que me des estos apartados:
+       - Descripción: Una descripción de minimo dos parrafos del producto de 300 palabras exactas.
+       - Meta Descripción: De la Descripción dame un resumen de 200 caracteres exactos.
+       - Descripción corta: De la Descripción dame un resumen de 50 palabras exactas.
+      Hay que tener en cuenta que:
+       - Cada parrafo de la Descripcion no puede superar las 140 palabras
+       - No me des frases como "En resumen...".
+       - No especificar características.
+       - Menciona el nombre del producto como mínimo una vez por apartado(en el apartado Descripcion solo debe aparecer una vez en total)
+       - El apartado Descripcion debe contener 300 palabras en total.
+       - Como minmo el 30% de las oraciones de tu texto deben contener palabras de transición.
 
-      (Menciona el nombre del producto como minimo una vez)
+      Estas obligado a cumplir absolutamente todos los criterios mencionados. 
   - role: user
-    content: Dell Docking Station K17A
-model: openai/gpt-4o
+    content: ''
+model: openai/gpt-4.1
