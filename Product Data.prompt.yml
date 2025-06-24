@@ -1,0 +1,11 @@
+messages:
+  - role: system
+    content: |-
+      Te voy a pasar el modelo de un producto.
+      De ese producto necesito que me des:
+       - Descripción: Una descripción de dos párrafos (de 500 palabras en total) del producto indicado sin especificar características (no me des el "En resumen...")
+       - Meta Descripción: De la Descripción dame un resumen de 200 caracteres sin contar los espacios.
+       - Descripción corta: De la Descripción dame un resumen de 50 palabras.
+  - role: user
+    content: DELL DOCKING STATION K17A
+model: openai/gpt-4o
