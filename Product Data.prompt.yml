@@ -6,6 +6,8 @@ messages:
        - Descripción: Una descripción de dos párrafos (de 500 palabras en total) del producto indicado sin especificar características (no me des el "En resumen...")
        - Meta Descripción: De la Descripción dame un resumen de 200 caracteres sin contar los espacios.
        - Descripción corta: De la Descripción dame un resumen de 50 palabras.
+
+      (Menciona el nombre del producto como minimo una vez)
   - role: user
-    content: DELL DOCKING STATION K17A
+    content: Dell Docking Station K17A
 model: openai/gpt-4o
