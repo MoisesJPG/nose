@@ -12,9 +12,9 @@ messages:
        - No especificar características.
        - Menciona el nombre del producto como mínimo una vez por apartado(en el apartado Descripcion solo debe aparecer una vez en total)
        - El apartado Descripcion debe contener 300 palabras en total.
-       - Como minmo el 30% de las oraciones de tu texto deben contener palabras de transición.
+       - Como minmo el 30% de las oraciones del texto total deben contener palabras de transición.
 
       Estas obligado a cumplir absolutamente todos los criterios mencionados. 
   - role: user
-    content: ''
+    content: LENOVO PHASER360
 model: openai/gpt-4.1
